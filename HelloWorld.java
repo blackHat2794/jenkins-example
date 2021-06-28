@@ -10,11 +10,17 @@ class Employee
 	public void display(){
 		System.out.println("Your first name is: "+this.fname+" and last name is: "+this.lname);
 	}
+	public static void data(){
+		new Employee("Jake", "Harper").display();
+		new Employee("Ebing", "Jonas").display();
+		new Employee("Hella", "Clark").display();
+
+	}
 }
 public class HelloWorld
 {
 	public static void main(String... args){
 		System.out.println("Hello, Jenkins Users");
-		new Employee("Jake", "Harper").display();
+		Employee.data();
 	}
 }
