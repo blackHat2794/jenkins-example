@@ -14,7 +14,8 @@ class Employee
 		new Employee("Jake", "Harper").display();
 		new Employee("Ebing", "Jonas").display();
 		new Employee("Hella", "Clark").display();
-
+		new Employee("Naib", "Zardari").display();
+		new Employee("Khan", "Bagdadi").display();
 	}
 }
 public class HelloWorld
